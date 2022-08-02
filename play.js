@@ -26,3 +26,14 @@ const substraction = ()=> 100 -34
 console.log(summarizeUser(name,age,hasHobbies))
 console.log(addition(45,3))
 console.log(substraction())
+
+// creating objects
+const person = {
+    name: 'Hashan',
+    age : 23,
+    greet(){
+        console.log("Hi this is my name : ", this.name)
+    }
+}
+
+person.greet()
