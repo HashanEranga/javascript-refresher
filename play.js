@@ -44,4 +44,15 @@ for (let hobby of hobbies) {
 }
 
 console.log(hobbies.map(hobby => "Hobby is " + hobby));
+
 console.log(hobbies)
+
+// spread operator 
+const copiedArray = [...hobbies]
+console.log(copiedArray)
+
+const toArray = (...args) =>{
+    return args
+}
+
+console.log(toArray(1,2,3,4,5,6,7,8))
