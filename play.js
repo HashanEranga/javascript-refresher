@@ -1,6 +1,8 @@
-var name = 'Max'
-var age = 29
-var hasHobbies = true
+// const for permanant variables 
+const name = 'Max'
+let age = 29
+let hasHobbies = true
+
 function summarizeUser(username, userAge, userHasHobby){
     return(
         "Name is "+ username+
