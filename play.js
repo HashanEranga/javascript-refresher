@@ -56,3 +56,9 @@ const toArray = (...args) =>{
 }
 
 console.log(toArray(1,2,3,4,5,6,7,8))
+
+const printName = ({name}) =>{
+    console.log(name)
+}
+
+printName(person)
